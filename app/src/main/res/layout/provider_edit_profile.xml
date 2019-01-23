@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="@dimen/twenty"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/company_name"
+        android:layout_marginBottom="@dimen/five"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e_d_name"
+        android:inputType="text"
+        android:background="@drawable/input_border"
+        android:padding="@dimen/ten"
+        android:textSize="12sp"
+        android:hint="@string/company_name"
+        android:layout_marginBottom="@dimen/five"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:layout_marginBottom="@dimen/five"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/e_d_address"
+        android:background="@drawable/input_border"
+        android:padding="@dimen/ten"
+        android:textSize="12sp"
+        android:hint="@string/address"
+        android:layout_marginBottom="@dimen/five"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:layout_marginBottom="@dimen/five"
+        />
+    <EditText
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e_d_phone"
+        android:background="@drawable/input_border"
+        android:padding="@dimen/ten"
+        android:textSize="12sp"
+        android:hint="@string/phone"
+        android:layout_marginBottom="@dimen/five"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fullname"
+        android:layout_marginBottom="@dimen/five"
+        />
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e_d_fullname"
+        android:background="@drawable/input_border"
+        android:padding="@dimen/ten"
+        android:textSize="12sp"
+        android:hint="@string/fullname"
+        android:layout_marginBottom="@dimen/five"
+        />
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserView.TabHotel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/twenty"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginBottom="@dimen/five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/city"
+                />
+            <EditText
+                android:layout_marginBottom="@dimen/five"
+                android:layout_width="match_parent"
+                android:id="@+id/s_r_city"
+                android:background="@drawable/input_border"
+                android:padding="12sp"
+                android:textSize="@dimen/text_fourteen"
+                android:hint="Nama Kota"
+                android:inputType="text"
+                android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginBottom="@dimen/five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/datetext"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:background="@drawable/input_border"
+        android:padding="12sp"
+        android:layout_marginBottom="@dimen/five"
+        android:textSize="@dimen/text_fourteen"
+        android:hint="Tanggal Berkunjung"
+        android:id="@+id/s_r_date"
+        android:focusable="false"
+        android:editable="false"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/person"
+        android:layout_marginBottom="@dimen/five"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/s_r_person"
+        android:background="@drawable/input_border"
+        android:padding="12sp"
+        android:textSize="@dimen/text_fourteen"
+        android:hint="Jumlah Orang"
+        android:layout_marginBottom="@dimen/five"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/search"
+        android:layout_marginTop="@dimen/ten"
+        android:textColor="@color/textWhite"
+        android:background="@drawable/button_border2"
+        android:id="@+id/b_s_resort"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/thirty"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

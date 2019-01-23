@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ProviderView.ResortProvider">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/thirty"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_ten"
+            android:text="@string/description"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/ten"
+        android:id="@+id/t_r_description"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_ten"
+        android:text="@string/open_day"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/t_r_day"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_ten"
+        android:text="@string/time_open"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/t_r_time"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_ten"
+        android:text="@string/r_price"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/t_r_price"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            app:fabSize="normal"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:layout_margin="@dimen/twenty"
+            android:id="@+id/fab_r_edit"
+            android:layout_gravity="bottom|end"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

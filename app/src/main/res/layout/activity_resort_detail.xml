@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProviderView.ResortDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/twenty"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:layout_marginBottom="@dimen/five"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:background="@drawable/input_border"
+            android:padding="@dimen/ten"
+            android:textSize="12sp"
+            android:hint="@string/description"
+            android:layout_marginBottom="@dimen/five"
+            android:id="@+id/i_r_description"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_day"
+            android:layout_marginBottom="@dimen/five"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/i_r_dmon"
+            android:text="@string/monday"
+            android:layout_height="wrap_content" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/i_r_dtue"
+                android:text="@string/tuesday"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/i_r_dwed"
+                android:text="@string/wednesday"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/i_r_dthu"
+                android:text="@string/thursday"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/i_r_dfri"
+                android:text="@string/friday"
+                android:layout_height="wrap_content" />
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/i_r_dsat"
+                android:text="@string/saturday"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <CheckBox
+            android:layout_width="match_parent"
+            android:text="@string/sunday"
+            android:id="@+id/i_r_dsun"
+            android:layout_marginBottom="@dimen/ten"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/five"
+            android:text="@string/time_open"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/ten"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:inputType="time"
+                android:background="@drawable/input_border"
+                android:padding="@dimen/ten"
+                android:textSize="12sp"
+                android:layout_marginBottom="@dimen/five"
+                android:id="@+id/i_r_open"
+                android:hint="@string/time_open"
+                android:editable="false"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:inputType="time"
+                android:hint="@string/time_close"
+                android:background="@drawable/input_border"
+                android:padding="@dimen/ten"
+                android:textSize="12sp"
+                android:layout_marginLeft="@dimen/five"
+                android:id="@+id/i_r_close"
+                android:editable="false"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/r_price"
+            android:inputType="number"
+            android:layout_marginBottom="@dimen/five"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:background="@drawable/input_border"
+            android:padding="@dimen/ten"
+            android:textSize="12sp"
+            android:hint="@string/r_price"
+            android:layout_marginBottom="@dimen/five"
+            android:id="@+id/i_r_price"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="@drawable/button_border2"
+            android:textAllCaps="false"
+            android:textColor="@color/textWhite"
+            android:text="@string/save"
+            android:layout_marginTop="@dimen/ten"
+            android:id="@+id/btn_save"
+            android:layout_marginBottom="@dimen/twenty"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

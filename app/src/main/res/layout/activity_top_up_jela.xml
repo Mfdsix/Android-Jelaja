@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/twenty"
+    android:layout_height="match_parent"
+    tools:context=".UserView.TopUpJela">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_topup"
+        android:textColor="@color/textPrimary"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/ten"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="12sp"
+        android:text="Pilih salah satu nominal dibawah ini untuk melakukan transaksi topup."
+        android:layout_marginBottom="@dimen/ten"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:id="@+id/rg_amount_top"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r_amount_100"
+            android:text="@string/one_hundred"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/r_amount_200"
+            android:text="@string/two_hundred"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/five_hundred"
+            android:id="@+id/r_amount_500"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/one_million"
+            android:id="@+id/r_amount_1000"
+            />
+
+    </RadioGroup>
+    <Button
+        android:layout_marginTop="@dimen/ten"
+        android:layout_width="match_parent"
+        android:text="@string/topup"
+        android:background="@drawable/button_border2"
+        android:textColor="@color/textWhite"
+        android:textAllCaps="false"
+        android:id="@+id/btn_topup"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

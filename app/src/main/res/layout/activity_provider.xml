@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/twenty"
+    android:paddingVertical="@dimen/thirty"
+    tools:context=".ProviderView.ProviderActivity">
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/twenty"
+        android:textColor="@color/textWhite"
+        android:layout_marginBottom="@dimen/twenty"
+        android:layout_width="match_parent"
+        android:text="Selamat Datang di menu Provider"
+        android:layout_height="wrap_content" />
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:onClick="show_my_profile"
+                android:layout_height="150dp"
+                android:layout_marginRight="@dimen/ten"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="84dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_provider"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/profile"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:onClick="show_my_schedule"
+                android:layout_height="150dp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="84dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_widgets_black_24dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/schedule"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/ten"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/ten"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:onClick="let_me_logout"
+                android:layout_marginRight="@dimen/ten"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="84dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_send_black_24dp"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAlignment="center"
+                        android:text="@string/logout"
+                        />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+</LinearLayout>

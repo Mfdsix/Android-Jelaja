@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserView.JelaPay">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:paddingVertical="@dimen/thirty"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/textWhite"
+                android:id="@+id/t_balance"
+                android:textSize="@dimen/text_thirty"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/your_balance"
+                android:textColor="@color/textWhite"
+                android:textAlignment="center"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_marginLeft="@dimen/twenty"
+                android:layout_marginRight="@dimen/twenty"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:clickable="true"
+                    android:onClick="show_my_request"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:padding="@dimen/ten"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:text="Permintaan Topup"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_weight="2"
+                        android:layout_width="80dp"
+                        android:src="@drawable/ic_right"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#eee"
+                    android:layout_height="0.1dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:clickable="true"
+                    android:onClick="show_my_history"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:padding="@dimen/ten"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:text="Riwayat Topup"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:layout_weight="2"
+                        android:layout_width="80dp"
+                        android:src="@drawable/ic_right"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:background="#eee"
+                    android:layout_height="0.1dp"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_playlist_add_black_24dp"
+        app:fabSize="normal"
+        android:layout_margin="@dimen/twenty"
+        android:id="@+id/fab_topup"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

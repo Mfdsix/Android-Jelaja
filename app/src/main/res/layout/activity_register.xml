@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".UserView.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/twenty"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textPrimary"
+        android:textSize="16dp"
+        android:layout_marginBottom="@dimen/five"
+        android:text="@string/username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/i_username"
+        android:layout_marginBottom="@dimen/five"
+        android:background="@drawable/input_border"
+        android:padding="12dp"
+        android:inputType="text"
+        android:textSize="@dimen/text_fourteen"
+        android:hint="Username"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:layout_marginBottom="@dimen/five"
+        android:textColor="@color/textPrimary"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/i_password"
+        android:hint="Password"
+        android:background="@drawable/input_border"
+        android:padding="12dp"
+        android:textSize="@dimen/text_fourteen"
+        android:layout_marginBottom="@dimen/five"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginBottom="@dimen/five"
+        android:text="@string/re_password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/i_password2"
+        android:hint="Konfirmasi Password"
+        android:background="@drawable/input_border"
+        android:padding="12dp"
+        android:textSize="@dimen/text_fourteen"
+        android:layout_marginBottom="@dimen/twenty"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_marginRight="@dimen/five"
+        android:text="User"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textAllCaps="false"
+        android:id="@+id/b_reg_user"
+        android:layout_marginBottom="@dimen/five"
+        android:background="@drawable/button_border2"
+        android:textColor="@color/textWhite"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="Provider"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:id="@+id/b_reg_prov"
+        android:textColor="@color/textWhite"
+        android:textAllCaps="false"
+        android:background="@drawable/button_border3"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/ten"
+            android:layout_marginBottom="@dimen/ten"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:background="@color/divider"
+                android:layout_height="0.1dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:textSize="@dimen/text_ten"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:textColor="@color/textSecondary"
+                android:layout_height="wrap_content"
+                android:text="Punya Akun ?"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:background="@color/divider"
+                android:layout_height="0.1dp"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:textAllCaps="false"
+            android:background="@drawable/button_border"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textColor="@color/colorPrimaryDark"
+            android:height="50dp"
+            android:text="Login"
+            android:onClick="show_login"
+            android:layout_marginBottom="@dimen/twenty"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

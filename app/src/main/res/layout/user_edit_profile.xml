@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".UserView.UserProfileActivity"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/twenty"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:layout_marginBottom="@dimen/five"
+        />
+    <EditText
+        android:layout_marginBottom="@dimen/five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_border"
+        android:padding="12sp"
+        android:textSize="@dimen/text_fourteen"
+        android:hint="Alamat Lengkap"
+        android:inputType="textMultiLine"
+        android:id="@+id/e_du_address"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/five"
+        android:text="@string/phone"
+        />
+    <EditText
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:background="@drawable/input_border"
+        android:padding="12sp"
+        android:textSize="@dimen/text_fourteen"
+        android:hint="Contoh : 085802968281"
+        android:layout_marginBottom="@dimen/five"
+        android:layout_height="wrap_content"
+        android:id="@+id/e_du_phone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fullname"
+        android:layout_marginBottom="@dimen/five"
+        />
+    <EditText
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_border"
+        android:padding="12sp"
+        android:textSize="@dimen/text_fourteen"
+        android:hint="Nama Lengkap"
+        android:layout_marginBottom="@dimen/five"
+        android:id="@+id/e_du_fullname"
+        />
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Nama Bank"-->
+        <!--android:layout_marginBottom="@dimen/five"-->
+        <!--/>-->
+    <!--<RadioGroup-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/e_du_bank"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/BRI"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="BRI"-->
+            <!--/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/BNI"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="BNI"-->
+            <!--/>-->
+        <!--<RadioButton-->
+            <!--android:id="@+id/BCA"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="BCA"-->
+            <!--/>-->
+
+    <!--</RadioGroup>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/five"
+        android:text="Nomor Rekening"
+        />
+    <EditText
+        android:inputType="number"
+        android:background="@drawable/input_border"
+        android:padding="12sp"
+        android:textSize="@dimen/text_fourteen"
+        android:hint="Contoh : 11337253264"
+        android:layout_marginBottom="@dimen/five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/e_du_number"
+        />
+    <Button
+        android:layout_marginTop="@dimen/ten"
+        android:id="@+id/b_save_user"
+        android:background="@drawable/button_border2"
+        android:layout_width="match_parent"
+        android:textColor="@color/textWhite"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        />
+    </LinearLayout>
+
+</ScrollView>

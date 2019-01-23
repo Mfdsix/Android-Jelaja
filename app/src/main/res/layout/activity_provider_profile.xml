@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProviderView.ProviderProfileActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:id="@+id/fab_d_edit"
+        android:layout_margin="16dp"
+        app:fabSize="normal"
+        android:src="@drawable/ic_edit_black_24dp"
+        />
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:id="@+id/fab_d_photo"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="16dp"
+        app:fabSize="normal"
+        android:src="@drawable/ic_camera"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="200dp"
+        android:id="@+id/photo"
+        android:background="@color/divider"
+        android:layout_marginBottom="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/twenty"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/d_name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Mahfudz Ainur Rifan"
+        />
+    <TextView
+        android:id="@+id/d_fullname"
+        android:text="Mfdsix@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/d_phone"
+        android:text="085802968281"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company Detail"
+        android:textSize="12dp"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/d_c_name"
+        android:text="PT . GARUDA AIRLINES (Plane)"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="12dp"
+        android:id="@+id/d_address"
+        android:text="Jln. hsfgh sagds agsdg s"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

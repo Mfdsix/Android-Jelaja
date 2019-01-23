@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/thirty"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/textWhite"
+        android:textSize="@dimen/twenty"
+        android:textStyle="bold"
+        android:text="Jelaja Hotel dan Travel"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Liburan makin mudah dengan Jelaja"
+            android:textColor="@color/textWhite"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Layanan Jelaja"
+        android:layout_marginBottom="@dimen/ten"
+        android:textSize="16dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/ten"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/twenty"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/ic_directions_bus_black_24dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:text="Bus"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/twenty"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/ic_airplanemode_active_black_24dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:text="Pesawat"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/twenty"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/ic_directions_boat_black_24dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:text="Kapal"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/ten"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/five"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/twenty"
+                android:layout_marginRight="@dimen/ten"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/ic_train_black_24dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:text="Kereta"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/twenty"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@drawable/ic_hotel_black_24dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:text="Hotel"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/thirty"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/ten"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/textWhite"
+            android:textSize="@dimen/twenty"
+            android:textStyle="bold"
+            android:text="Bayar dengan Jelapay"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Bayar transaksi lebih mudah dengan Jelapay"
+            android:textColor="@color/textWhite"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

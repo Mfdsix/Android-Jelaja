@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserView.TabVehicle">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/twenty"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/five"
+                android:text="@string/source"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/s_v_source"
+                android:inputType="text"
+                android:layout_marginBottom="@dimen/five"
+                android:background="@drawable/input_border"
+                android:padding="12sp"
+                android:textSize="@dimen/text_fourteen"
+                android:hint="Kota Asal"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/five"
+                android:text="@string/destination"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:layout_marginBottom="@dimen/five"
+                android:background="@drawable/input_border"
+                android:padding="12sp"
+                android:textSize="@dimen/text_fourteen"
+                android:hint="Kota Tujuan"
+                android:id="@+id/s_v_destination"
+                android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/five"
+        android:text="@string/datetext"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/five"
+        android:clickable="true"
+        android:background="@drawable/input_border"
+        android:padding="12sp"
+        android:textSize="@dimen/text_fourteen"
+        android:hint="Tanggal Berangkat"
+        android:id="@+id/s_v_date"
+        android:focusable="false"
+        android:editable="false"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/five"
+        android:text="@string/passenger"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:background="@drawable/input_border"
+        android:padding="12sp"
+        android:layout_marginBottom="@dimen/five"
+        android:textSize="@dimen/text_fourteen"
+        android:hint="Jumlah Penumpang"
+        android:id="@+id/s_v_passenger"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="@string/search"
+        android:background="@drawable/button_border2"
+        android:textAllCaps="false"
+        android:textColor="@color/textWhite"
+        android:layout_marginTop="@dimen/ten"
+        android:id="@+id/b_s_vehicle"
+        android:layout_marginBottom="@dimen/thirty"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

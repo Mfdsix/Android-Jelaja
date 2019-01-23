@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Jelaja</string>
+    <string name="title_home">Awal</string>
+    <string name="title_travel">Travel</string>
+    <string name="title_bus">Bus</string>
+    <string name="title_plane">Pesawat</string>
+    <string name="title_train">Kereta</string>
+    <string name="title_boat">Kapal</string>
+    <string name="title_wallet">Transaksi</string>
+    <string name="title_activity_login">Log In</string>
+    <string name="title_activity_drawer">Jelaja</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!--register-->
+    <string name="reg_as_user">Registrasi Sebagai User</string>
+    <string name="reg_as_provider">Registrasi Sebagai Provider</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="re_password">Konfirmasi Password</string>
+    <string name="link_login">Punya Akun ? Login Disini</string>
+    <string name="link_register">Belum Registrasi ? Registrasi Sekarang</string>
+
+    <!--hotel search-->
+    <string name="city">Kota</string>
+    <string name="datetext">Tanggal</string>
+    <string name="person">Jumlah Orang</string>
+    <string name="room">Jumlah Kamar</string>
+    <string name="nights">Malam</string>
+    <string name="search">Cari</string>
+
+    <!--hotel search-->
+    <string name="source">Dari</string>
+    <string name="destination">Menuju</string>
+    <string name="passenger">Penumpang</string>
+    <string name="pp">Pulang Pergi ?</string>
+
+    <string name="dateTime">Tanggal dan Waktu</string>
+    <string name="price">Harga</string>
+    <string name="save">Simpan</string>
+    <string name="est_time">Est. Waktu</string>
+
+    <string name="provider">Provider</string>
+    <string name="vehicle">Kendaraan</string>
+    <string name="hotel">Hotel</string>
+    <string name="resort">Wisata</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="description">Deskripsi Singkat</string>
+    <string name="open_day">Hari Buka</string>
+    <string name="monday">Senin</string>
+    <string name="tuesday">Selasa</string>
+    <string name="wednesday">Rabu</string>
+    <string name="thursday">Kamis</string>
+    <string name="friday">Jumat</string>
+    <string name="saturday">Sabtu</string>
+    <string name="sunday">Minggu</string>
+    <string name="r_price">Harga Masuk</string>
+    <string name="time_open">Jam Buka</string>
+    <string name="time_close">Jam Tutup</string>
+
+    <string name="admin_info">Kamu sedang login \n Sebagai Admin</string>
+    <string name="service_quest">Jenis Layanan</string>
+
+    <string name="confirm_topup">Konfirmasikan Pembayaran</string>
+    <string name="topup_amount">Jumlah Topup</string>
+
+    <string name="your_balance">Saldo Tersisa</string>
+    <string name="schedule">Jadwal</string>
+    <string name="book">Book</string>
+
+    <string name="choose_topup">Pilih Jumlah Topup</string>
+    <string name="one_hundred">100.000</string>
+    <string name="two_hundred">200.000</string>
+    <string name="five_hundred">500.000</string>
+    <string name="one_million">1.000.000</string>
+
+    <string name="topup">Topup</string>
+
+    <string name="phone">Nomor Handphone</string>
+    <string name="fullname">Nama Lengkap</string>
+    <string name="company_name">Nama Perusahaan</string>
+    <string name="address">Alamat</string>
+    <string name="email">Email</string>
+
+</resources>

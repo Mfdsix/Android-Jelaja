@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#FFD742</color>
+    <color name="colorPrimary">#1ba0e2</color>
+    <color name="colorPrimaryDark">#1694dc</color>
+    <color name="colorAccent">#1ba0e2</color>
+    <color name="buttonPositive">#f96d01</color>
+    <color name="textPrimary">#444444</color>
+    <color name="textSecondary">#a5a5a5</color>
+    <color name="textBlur">#83b7e6</color>
+    <color name="textWhite">#FFFFFF</color>
+    <color name="divider">#e6eaed</color>
+    <color name="divider2">#f6f6f6</color>
+    <color name="divider3">#8f8f8f</color>
+</resources>

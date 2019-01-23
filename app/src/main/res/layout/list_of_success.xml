@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/twenty"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_weight="2"
+                android:id="@+id/gambar"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_weight="1.5"
+                android:id="@+id/nama"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:id="@+id/harga"
+                android:textAlignment="textEnd"
+                android:textColor="@color/buttonPositive"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginTop="@dimen/ten"
+            android:layout_marginBottom="@dimen/ten"
+            android:background="@color/divider"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:text="Detail"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:id="@+id/detail"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/ten"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:text="Kota"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:id="@+id/kota"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/ten"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="match_parent"
+                android:text="Berangkat"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:id="@+id/berangkat"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/divider"/>
+
+</LinearLayout>

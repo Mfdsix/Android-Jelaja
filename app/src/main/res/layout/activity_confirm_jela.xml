@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserView.ConfirmJela">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/twenty"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:text="@string/confirm_topup"
+        android:layout_marginBottom="@dimen/ten"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="12sp"
+        android:layout_marginBottom="@dimen/five"
+        android:text="Tekan kotak di bawah untuk memilih file, dan kemudian tekan upload untuk memberikan bukti pembayaran anda."
+        android:layout_height="wrap_content" />
+
+        <View
+            android:layout_marginTop="@dimen/five"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginBottom="@dimen/ten"
+            android:background="@color/divider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/topup_amount"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jml_topup"
+            android:textStyle="bold"
+            />
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/ten"
+                android:background="@color/divider"
+                android:layout_height="0.1dp"/>
+            <ImageView
+                android:layout_height="200dp"
+                android:id="@+id/imgHolder"
+                android:background="@color/divider"
+                android:scaleType="centerInside"
+                android:layout_marginBottom="@dimen/ten"
+                android:layout_width="match_parent"/>
+            <Button
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:enabled="false"
+                android:text="Upload"
+                android:textAllCaps="false"
+                android:background="@drawable/button_border2"
+                android:textColor="@color/textWhite"
+                android:id="@+id/btn_upload"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

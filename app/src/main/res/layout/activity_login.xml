@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".UserView.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/twenty"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginBottom="@dimen/five"
+        android:text="@string/username"
+        android:textColor="@color/textPrimary"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/i_username"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/input_border"
+        android:hint="Username"
+        android:textSize="@dimen/text_fourteen"
+        android:layout_marginBottom="@dimen/ten"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_marginBottom="@dimen/five"
+        android:textColor="@color/textPrimary"
+        android:text="@string/password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/i_password"
+        android:layout_marginBottom="@dimen/five"
+        android:background="@drawable/input_border"
+        android:padding="12dp"
+        android:hint="Password"
+        android:textSize="@dimen/text_fourteen"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:text="Login"
+        android:layout_marginTop="@dimen/twenty"
+        android:background="@drawable/button_border2"
+        android:id="@+id/b_login"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:textAllCaps="false"
+        android:textColor="@color/textWhite"
+        android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/ten"
+            android:layout_marginBottom="@dimen/ten"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:background="@color/divider"
+                android:layout_height="0.1dp"/>
+    <TextView
+        android:onClick="show_register"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/text_ten"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/textSecondary"
+        android:layout_height="wrap_content"
+        android:text="Belum Punya Akun ?"
+        />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:background="@color/divider"
+                android:layout_height="0.1dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Daftar"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="50dp"
+            android:textAllCaps="false"
+            android:onClick="show_register"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_marginBottom="@dimen/twenty"
+            android:background="@drawable/button_border" />
+    </LinearLayout>
+</ScrollView>
